@@ -1,13 +1,6 @@
 @import "variable.less";
 
-#contacts{
-    article{
-        float: left;
-        margin: 0.5%;
-        width: 48.8%;
-        border:1px solid @lightGray;
-        background:@lightGray;
-    }
+.commonContactView{
      .contactThumbnail{
         float: left;
         margin: 2%;
@@ -24,4 +17,30 @@
     p{
         float:left;
     }
+    .add, .addContactPopUp,  .cancel{
+        cursor:pointer;
+    }
+}
+#contacts{
+    article{
+        float: left;
+        margin: 0.5%;
+        width: 48.8%;
+        border:1px solid @lightGray;
+        background:@lightGray;
+    }
+    .commonContactView
+   
+}
+.modal{
+    section{
+        width: 50%;
+        position: absolute;
+        top: 37%;
+        left: 20%;
+        background: @lightBlue;
+        opacity: 1; 
+        border: 10px solid gray;
+    }
+    .commonContactView
 }

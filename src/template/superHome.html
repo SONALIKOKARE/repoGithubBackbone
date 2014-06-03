@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<div id="contacts"></div>
-<button class="add">Add</button>
+<div id="contacts">
+    <button class="addContactPopUp">Add</button>
+</div>
 <script id="contactTemplate" type="text/template">
     <div class="contactThumbnail">
         <img src="<%= photo %>" alt="<%= name %>" />
@@ -17,4 +18,54 @@
         <button class="updateContact">Update</button>
         <button class="delete">Delete</button>
     </div>
+</script>
+<script id="addContactTemplate" type="text/template">
+     <div class="contactThumbnail">
+        <img src="assets/superHome/contactThumbnail.png" alt="Contact 1">
+    </div>
+    <div class="contactInfo">
+        <h1>Contact 1<span>family</span></h1>
+        <div>1, a street, a town, a city, AB12 3CD</div>
+        <div>
+            <p>Tel:</p><p>0123456789</p>
+            <p>Email:</p><p><a href="mailto:anemail@me.com">anemail@me.com</a></p>
+        </div>
+    </div>
+    <div class="contactAction">
+        <button class="add">add</button>
+        <button class="cancel">cancel</button>
+    </div>
+</script>
+ <script id="contactEditTemplate" type="text/template">
+    <form action="#">
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th width="20%" style="text-align: center;">Profile Pic</th>
+                <th colspan="2">
+                    Name: <input class="name" value="<%= name %>" /><input class="family" id="type" type="hidden" value="<%= type %>" />
+                    <span class="pull-right">
+                        <button class="btn btn-success save">Save</button>
+                        <button class="btn btn-default cancel">Cancel</button>
+                    </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="4" style="text-align: center;"><img src="<%= photo %>" alt="<%= name %>" /></td>
+                <td calspan="2" width="20%">Address: </td>
+                <td><input class="address" value="<%= address %>" /></td>
+              </tr>
+              <tr>
+                <td>Contact No.: </td>
+                <td><input class="tel" value="<%= tel %>" /></td>
+              </tr>
+              <tr>
+                <td>Email: </td>
+                <td><input class="email" value="<%= email %>" /></td>
+              </tr>
+            </tbody>
+        </table>
+    </form>
 </script>
