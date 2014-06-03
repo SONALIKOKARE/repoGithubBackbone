@@ -91,6 +91,8 @@ define([
 		                    contacts.splice(_.indexOf(contacts, contact), 1, formData);
 		                }
 		            });
+
+		            this.render();
 				},
 
 				updateConatct:function(){
