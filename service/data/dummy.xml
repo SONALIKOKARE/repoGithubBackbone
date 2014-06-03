@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorldBook>
+	<World loader='general' showstartupscreen='true'>
+		<Level type='TimelineSorting' theme='../themes/timelinegradientpurple/index.xml' bucketsToShow='1' answersToShow='4' requiredCorrect='4'>
+			<Title audio='../levels/tonsoftomatoes/audio/au013756.mp3' caption='Put the Story in Order: Dummy'></Title>
+			<Instructions audio='../levels/tonsoftomatoes/audio/au013721.mp3' caption='Drag the events from the story in the order in which they happened. Click on the caption to hear it read aloud. When your done, click Check My Answers.'></Instructions>
+			<Bucket src='../levels/tonsoftomatoes/images/check-my-answers.png'>
+				<Answer src='assets/bg/2x/games/pickitinorder/pc339487.png' audio='../levels/tonsoftomatoes/audio/au013757.mp3' order='1' caption='Dummy 1' />
+				<Answer src='assets/bg/2x/games/pickitinorder/pc339504.png' audio='../levels/tonsoftomatoes/audio/au013758.mp3' order='2' caption='Dummy 2' />
+				<Answer src='assets/bg/2x/games/pickitinorder/pc339521.png' audio='../levels/tonsoftomatoes/audio/au013759.mp3' order='3' caption='Dummy 3' />
+				<Answer src='assets/bg/2x/games/pickitinorder/pc339512.png' audio='../levels/tonsoftomatoes/audio/au013760.mp3' order='4' caption='Dummy 4' />
+			</Bucket>
+		</Level>
+	</World>
+</WorldBook>

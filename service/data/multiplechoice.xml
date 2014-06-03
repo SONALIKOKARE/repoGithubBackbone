@@ -1,0 +1,15 @@
+
+<WorldBook>
+	<World loader='general'>
+		<Level type='MultipleChoiceText' theme='../themes/gradient/index.xml' bucketsToShow='1' answersToShow='4' requiredCorrect='1'>
+			<Title audio='../levels/fillintheword/audio/au013205.mp3' caption='Multiple Choice: Pick the Opposite'></Title>
+			<Instructions audio='../levels/fillintheword/audio/au013461.mp3' caption='Click on the picture that shows the opposite of clean'></Instructions>			
+			<Bucket text="">
+				<Answer src='assets/bg/2x/games/multiplechoice/pc339487.png' audio='../levels/fillintheword/audio/au013293.mp3' />
+				<Choice src='assets/bg/2x/games/multiplechoice/pc339486.png' audio='../levels/fillintheword/audio/au013350.mp3' />
+				<Choice src='assets/bg/2x/games/multiplechoice/pc339485.png' audio='../levels/fillintheword/audio/au013431.mp3' />
+				<Choice src='assets/bg/2x/games/multiplechoice/pc339484.png' audio='../levels/fillintheword/audio/au013316.mp3' />		
+			</Bucket>								
+		</Level>																				
+	</World>
+</WorldBook>

@@ -1,0 +1,407 @@
+{
+    "status": "SUCCESS",
+    "data": {
+        "version": "1",
+        "cuePoint": [{
+            "time": "557.278911564626",
+            "type": "event",
+            "name": "Trek",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "743.038548752834",
+            "type": "event",
+            "name": "was",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "928.798185941043",
+            "type": "event",
+            "name": "a",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "1300.31746031746",
+            "type": "event",
+            "name": "scarecrow",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "2414.87528344671",
+            "type": "event",
+            "name": "He",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "2600.63492063492",
+            "type": "event",
+            "name": "was",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "2972.15419501134",
+            "type": "event",
+            "name": "made",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "3157.91383219955",
+            "type": "event",
+            "name": "from",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "3343.67346938776",
+            "type": "event",
+            "name": "three",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "3715.19274376417",
+            "type": "event",
+            "name": "strong",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "4272.4716553288",
+            "type": "event",
+            "name": "poles",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "5387.02947845805",
+            "type": "event",
+            "name": "One",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "5758.54875283447",
+            "type": "event",
+            "name": "long",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "6130.06802721088",
+            "type": "event",
+            "name": "pole",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "6687.34693877551",
+            "type": "event",
+            "name": "and",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "7058.86621315193",
+            "type": "event",
+            "name": "one",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "7430.38548752835",
+            "type": "event",
+            "name": "short",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "7801.90476190476",
+            "type": "event",
+            "name": "pole",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "8544.9433106576",
+            "type": "event",
+            "name": "helped",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "8730.7029478458",
+            "type": "event",
+            "name": "him",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "8916.46258503401",
+            "type": "event",
+            "name": "stand",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "9102.22222222222",
+            "type": "event",
+            "name": "firm",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "9473.74149659864",
+            "type": "event",
+            "name": "in",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "9845.26077097506",
+            "type": "event",
+            "name": "the",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "10031.0204081633",
+            "type": "event",
+            "name": "ground",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--<script id="read_template" type="text/x-handlebars-template">
+	<div class="read_template">
+		{{#each data}}
+			<div class="infoContainer" data-index={{@index}}>
+				<div class="title">{{@index}} . {{title}}</div>	
+				<button class="readButton">Read</button>
+			</div>
+		{{/each}}
+	</div>
+</script>-->
+<div id="read_template">
+	<div class="read_template">
+		{{#each data}}
+			<div class="infoContainer" data-index="{{@index}}">
+				<div class="title">{{@index}} . {{title}}</div>	
+				<button class="readButton">Read</button>
+			</div>
+		{{/each}}
+	</div>
+</div>

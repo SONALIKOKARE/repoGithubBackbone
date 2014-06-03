@@ -1,0 +1,215 @@
+{
+    "status": "SUCCESS",
+    "data": {
+        "version": "1",
+        "cuePoint": [{
+            "time": "557.278911564626",
+            "type": "event",
+            "name": "Treks",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "928.798185941043",
+            "type": "event",
+            "name": "head",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "1486.07709750567",
+            "type": "event",
+            "name": "was",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "1671.83673469388",
+            "type": "event",
+            "name": "a",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "1857.59637188209",
+            "type": "event",
+            "name": "large",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "2414.87528344671",
+            "type": "event",
+            "name": "turnip",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "3157.91383219955",
+            "type": "event",
+            "name": "and",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "3529.43310657596",
+            "type": "event",
+            "name": "his",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "3715.19274376417",
+            "type": "event",
+            "name": "hair",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "4086.71201814059",
+            "type": "event",
+            "name": "was",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "4272.4716553288",
+            "type": "event",
+            "name": "made",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "4643.99092970522",
+            "type": "event",
+            "name": "from",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "4829.75056689342",
+            "type": "event",
+            "name": "straw",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }]
+    }
+}

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<div style="width: 100%;">
+    <div class="headerdiv">
+        <!--style="position:fixed;width: 94%;z-index: 1" -->
+        <div class="fixedClass">
+            <div id="search_cont_1">
+                <div class="search_box">
+                    <input class="left" type="text" name="search_text" id="first_search" />
+                    <h2 class="searchTxt">SEARCH</h2>
+                </div>
+                <div class="worldbook_advanced">
+                    <a href="#"></a>
+                </div>
+                <div class="search_box_primary" style="display: none;">
+                    <ul>
+                        <li><a href="#">ALL</a>
+                        </li>
+                        <li><a href="#">MEDIA</a>
+                        </li>
+                        <li>ADVANCE SEARCH</li>
+                    </ul>
+                </div>
+                <div class="right_header clearfix">
+                    <textarea name="textbox" id="textbox" cols="12"></textarea>
+                    <p>Pellentesque habitant morbi fames</p>
+                </div>
+            </div>
+            <div id="search_cont_2">
+                <div class="search_box_primary">
+                    <div class="search_box">
+                        <input type="submit" value="search" name="btn_search" />
+                        <input class="left" type="text" name="search_text" id="second_search" />
+                    </div>
+                    <div class="search_options">
+                        <ul>
+                            <li><a href="#">ALL</a>
+                            </li>
+                            <li><a href="#">MEDIA</a>
+                            </li>
+                            <li>ADVANCE SEARCH</li>
+                        </ul>
+                    </div>
+                    <div class="right_header clearfix">
+                        <textarea name="textbox" id="textbox" cols="12"></textarea>
+                        <p>Pellentesque habitant morbi fames</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of header div-->
+    <div class="search_box_container" id="search_popup"> <a href="javascript:;" class="close_x blue_text">X</a>
+        <ul>
+            <li><a href="javascript: void(0);">ALL</a>
+            </li>
+            <li><a href="javascript: void(0);">MEDIA</a>
+            </li>
+            <li>
+                <input type="text" class="search_input">
+                <input type="button" class="search_btn" value="SEARCH">
+            </li>
+            <li class="blue_text space">ADVANCE SEARCH</li>
+        </ul>
+    </div>
+
+    <div id="animation">
+
+        <div class="fixedClass">
+            <ul>
+                <li class="icon_search"></li>
+                <li class="icon_article"></li>
+                <li class="icon_image"></li>
+                <li class="icon_info"></li>
+                <li class="westernaustralia"></li>
+
+                <li class="action_menu">
+                    <ul class="flyout_menu" id="flyout">
+                        <li>
+                            <a href="" class="menu1" title="Setting">&nbsp;</a>
+                            <div class="flyout_toolsetting"> <a href="javascript:;" class="close_x blue_text">X</a>
+                                <h3 class="title_article blue_text">Article Content</h3>
+                                <ul class="accord">
+                                    <li><a href="javascript:;">Introduction</a>
+                                        <ul>
+                                            <li><a href="" class="active">Perth Australia</a>
+                                            </li>
+                                            <li><a href="">Westren Australia</a>
+                                            </li>
+                                            <li><a href="">Facts in breif about Westren Australia</a>
+                                            </li>
+                                            <li><a href="">Westren Australia flag and coat of arms</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:;">People</a>
+                                        <ul>
+                                            <li><a href="">Perth Australia</a>
+                                            </li>
+                                            <li><a href="">Westren Australia</a>
+                                            </li>
+                                            <li><a href="">Facts in breif about Westren Australia</a>
+                                            </li>
+                                            <li><a href="">Westren Australia flag and coat of arms</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Land and Climate</a>
+                                    </li>
+                                    <li><a href="">Economy</a>
+                                    </li>
+                                    <li><a href="">Government</a>
+                                    </li>
+                                    <li><a href="">Histroy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="menu2" title="action">Action</a>
+                            <div class="flyout_toolsetting">
+                                <a href="javascript:;" class="close_x blue_text">X</a>
+                                <h3 class="title_article blue_text">Tools and Setting</h3>
+                                <ul class="accord">
+                                    <li><a href="javascript: void(0);">View</a>
+                                        <ul>
+                                            <li> <a href="">Section view</a>
+                                            </li>
+                                            <li> <a href="">Scrollable view</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:;">save</a>
+                                        <ul>
+                                            <li> <a href="">Section view</a>
+                                            </li>
+                                            <li> <a href="">Scrollable view</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Email</a>
+                                    </li>
+                                    <li><a href="">Print</a>
+                                    </li>
+                                    <li><a href="">Language</a>
+                                    </li>
+                                    <li><a href="">Highlight serach term</a>
+                                    </li>
+                                    <li><a href="">Text size</a>
+                                    </li>
+                                    <li><a href="">Info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="left iconimage" style="display: none;">
+                <img class="left serach_animation" src="images/top_search.png">
+                <img class="left" src="images/notepad.png">
+                <img class="left bg_blue" src="images/camera.png">
+                <img class="left bg_blue" src="images/image_video.png">
+            </div>
+            <div class="left none">
+                <p>
+                    <img src="images/small_title.png">
+                </p>
+            </div>
+            <div class="action_menu none">
+                <ul id="flyout" class="flyout_menu">
+                    <li><a href="" class="menu1" title="Setting">Setting</a>
+                        <div class="flyout_toolsetting"> <a href="javascript:;" class="close_x blue_text">X</a>
+                            <h3 class="title_article blue_text">Article Content</h3>
+                            <ul class="accord">
+                                <li><a href="javascript:;">Introduction</a>
+                                    <ul>
+                                        <li><a href="" class="active">Perth Australia</a>
+                                        </li>
+                                        <li><a href="">Westren Australia</a>
+                                        </li>
+                                        <li><a href="">Facts in breif about Westren Australia</a>
+                                        </li>
+                                        <li><a href="">Westren Australia flag and coat of arms</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:;">People</a>
+                                    <ul>
+                                        <li><a href="">Perth Australia</a>
+                                        </li>
+                                        <li><a href="">Westren Australia</a>
+                                        </li>
+                                        <li><a href="">Facts in breif about Westren Australia</a>
+                                        </li>
+                                        <li><a href="">Westren Australia flag and coat of arms</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Land and Climate</a>
+                                </li>
+                                <li><a href="">Economy</a>
+                                </li>
+                                <li><a href="">Government</a>
+                                </li>
+                                <li><a href="">Histroy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="" class="menu2" title="Action">Action</a>
+                        <div class="flyout_toolsetting">
+                            <a href="javascript:;" class="close_x blue_text">X</a>
+                            <h3 class="title_article blue_text">Tools and Setting</h3>
+                            <ul class="accord">
+                                <li><a href="javascript:;">View</a>
+                                    <ul>
+                                        <li> <a href="">Section view</a>
+                                        </li>
+                                        <li> <a href="">Scrollable view</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:;">save</a>
+                                    <ul>
+                                        <li> <a href="">Section view</a>
+                                        </li>
+                                        <li> <a href="">Scrollable view</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Email</a>
+                                </li>
+                                <li><a href="">Print</a>
+                                </li>
+                                <li><a href="">Language</a>
+                                </li>
+                                <li><a href="">Highlight serach term</a>
+                                </li>
+                                <li><a href="">Text size</a>
+                                </li>
+                                <li><a href="">Info</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--closing of fixedclass -->
+    </div>
+    <!--end of animation-->
+    <div class="clear"></div>
+</div>
+<div style="width: 100%;margin: 45px 0px 0px; clear: left; float: left;">
+    <!--added today-->
+    <div class="titlebardiv">
+        <div class="fixedClass">
+            <div class="left">
+                <h4><a href="#">Back to Search Results</a></h4>
+                <div class="tabs">
+                    <ul class="tab-links">
+                        <li id="article" class="tabClick active">
+                            <!-- <a href="index.html">Article</a> --><a>Article</a>
+                        </li>
+                        <li id="secondpage" class="tabClick">
+                            <!-- <a href="secondpage.html">Images,Videos and Audio</a> --><a>Images,Videos and Audio</a>
+                        </li>
+                        <li id="thirdpage" class="tabClick">
+                            <!-- <a href="thirdpage.html">Related Information</a> --><a>Related Information</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="article_title">
+                <h2 class="left">Western Austraila</h2>
+                <div class="action_menu">
+                    <ul id="flyout" class="flyout_menu">
+                        <li><a href="" class="menu1" title="Setting">Setting</a>
+                            <div class="flyout_toolsetting"> <a href="javascript:;" class="close_x blue_text">X</a>
+                                <h3 class="title_article blue_text">Article Content</h3>
+                                <ul class="accord">
+                                    <li><a href="javascript:;">Introduction</a>
+                                        <ul>
+                                            <li><a href="" class="active">Perth Australia</a>
+                                            </li>
+                                            <li><a href="">Westren Australia</a>
+                                            </li>
+                                            <li><a href="">Facts in breif about Westren Australia</a>
+                                            </li>
+                                            <li><a href="">Westren Australia flag and coat of arms</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:;">People</a>
+                                        <ul>
+                                            <li><a href="">Perth Australia</a>
+                                            </li>
+                                            <li><a href="">Westren Australia</a>
+                                            </li>
+                                            <li><a href="">Facts in breif about Westren Australia</a>
+                                            </li>
+                                            <li><a href="">Westren Australia flag and coat of arms</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Land and Climate</a>
+                                    </li>
+                                    <li><a href="">Economy</a>
+                                    </li>
+                                    <li><a href="">Government</a>
+                                    </li>
+                                    <li><a href="">Histroy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="" class="menu2" title="Action">Action</a>
+                            <div class="flyout_toolsetting"> <a href="javascript:;" class="close_x blue_text">X</a>
+                                <h3 class="title_article blue_text">Tools and Setting</h3>
+                                <ul class="accord">
+                                    <li><a href="javascript:;">View</a>
+                                        <ul>
+                                            <li> <a href="">Section view</a>
+                                            </li>
+                                            <li> <a href="">Scrollable view</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:;">save</a>
+                                        <ul>
+                                            <li> <a href="">Section view</a>
+                                            </li>
+                                            <li> <a href="">Scrollable view</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Email</a>
+                                    </li>
+                                    <li><a href="">Print</a>
+                                    </li>
+                                    <li><a href="">Language</a>
+                                    </li>
+                                    <li><a href="">Highlight serach term</a>
+                                    </li>
+                                    <li><a href="">Text size</a>
+                                    </li>
+                                    <li><a href="">Info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--closing of article title div-->
+            <div class="clear"></div>
+        </div>
+        <!--end of fixedClass-->
+    </div>
+    <!--end of title bar-->
+</div>
+
+<div id="articlepage" class="searchpage">
+</div>

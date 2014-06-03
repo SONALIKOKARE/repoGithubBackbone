@@ -1,0 +1,25 @@
+{
+    "status": "SUCCESS",
+    "data": [{
+        "id": "1",
+        "title": "Trek Learns to Fly",
+        "audioFile": "au008866",
+        "thumbnail": "pc366422.png",
+        "resource": "bk000049",
+        "text": "Trek was a scarecrow. He was made from three strong poles. One long pole and one short pole helped him stand firm in the ground."
+    }, {
+        "id": "2",
+        "title": "Trek Learns About Colors",
+        "audioFile": "au008867",
+        "thumbnail": "pc366421.png",
+        "resource": "bk000050",
+        "text": "Another pole made his arms."
+    }, {
+        "id": "3",
+        "title": "Trek Learns About Numbers",
+        "audioFile": "au008868",
+        "thumbnail": "pc366424.png",
+        "resource": "bk000051",
+        "text": "Trek's head was a large turnip and his hair was made from straw."
+    }]
+}

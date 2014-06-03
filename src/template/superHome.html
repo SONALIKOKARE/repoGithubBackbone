@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<div id="contacts"></div>
+<button class="add">Add</button>
+<script id="contactTemplate" type="text/template">
+    <div class="contactThumbnail">
+        <img src="<%= photo %>" alt="<%= name %>" />
+    </div>
+    <div class="contactInfo">
+        <h1><%= name %><span><%= type %></span></h1>
+        <div><%= address %></div>
+        <div>
+            <p>Tel:</p><p><%= tel %></p>
+            <p>Email:</p><p><a href="mailto:<%= email %>"><%= email %></a></p>
+        </div>
+    </div>
+    <div class="contactAction">
+        <button class="updateContact">Update</button>
+        <button class="delete">Delete</button>
+    </div>
+</script>

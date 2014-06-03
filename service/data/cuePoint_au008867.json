@@ -1,0 +1,87 @@
+{
+    "status": "SUCCESS",
+    "data": {
+        "version": "1",
+        "cuePoint": [{
+            "time": "557.278911564626",
+            "type": "event",
+            "name": "Another",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "928.798185941043",
+            "type": "event",
+            "name": "pole",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "1486.07709750567",
+            "type": "event",
+            "name": "made",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "1671.83673469388",
+            "type": "event",
+            "name": "his",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }, {
+            "time": "2043.35600907029",
+            "type": "event",
+            "name": "arms",
+            "parameters": {
+                "parameter": [{
+                    "name": "source",
+                    "value": "manual"
+                }, {
+                    "name": "duration",
+                    "value": ""
+                }, {
+                    "name": "confidence",
+                    "value": ""
+                }]
+            }
+        }]
+    }
+}
